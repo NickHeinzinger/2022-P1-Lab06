@@ -59,10 +59,10 @@ public class Lab06vst extends Applet
         // Draw Random Circles
         for (int R = 0; R<=100; R++) {
           Random rand = new Random();
-            int circSize = rand.nextInt(5)+1;
-            int width = 100/circSize;
+            int circSize = rand.nextInt(10)+1;
+            int width = 200/circSize;
             int x13 = rand.nextInt(390 - width) + 10;
-            int height = 100/circSize;
+            int height = 200/circSize;
             int y13 = rand.nextInt(290 - height) + 300;
 
             int redColor = rand.nextInt(255);
